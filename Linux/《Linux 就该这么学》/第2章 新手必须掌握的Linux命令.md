@@ -153,11 +153,11 @@
 >
 > --type
 >
-> -exec ... {} \;
+> -exec ... {} \\;
 >
 > #删除指定目录下2天以前的所有日志文件
 >
-> find /your/path -name *.log -exec rm -f {} \;
+> find /your/path -name *.log -exec rm -f {} \\;
 
 6. whereis 命令名称: 查找二进制程序位置
 
